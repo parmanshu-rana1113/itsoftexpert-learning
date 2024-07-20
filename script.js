@@ -22,9 +22,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-// document.getElementById('hamburger').addEventListener('click', function() {
-//     document.getElementById('menu').classList.toggle('active');
-// });
 
 function toggleMenu() {
     const menu = document.querySelector('.menu');
