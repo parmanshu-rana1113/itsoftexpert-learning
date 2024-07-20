@@ -1,0 +1,468 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-section {
+    height: 80vh;
+    width: 100vw;
+    background-image: url('https://squadifypro.com/wp-content/uploads/2022/08/slider-1-min.jpg');
+    background-color: rgb(149, 233, 138);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: #000;
+    z-index: 1;
+    height: 10vh;
+}
+
+.main-logo {
+    justify-content: start;
+    position: absolute;
+    left: 100px;
+}
+
+.contactus {
+    font-size: 20px;
+    justify-content: end;
+    background-color: blue;
+    color: white;
+    position: absolute;
+    right: 50px;
+    padding: 5px;
+}
+
+.contactus:hover {
+    background-color: white;
+    color: blue;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.menu li a:hover {
+    color: #fff;
+    font-weight: 700;
+}
+
+.wrap-headline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -55px;
+    font-size: 25px;
+    color: white;
+}
+
+.imagination-heading {
+    margin-top: 200px;
+}
+
+.btn-cntct {
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    margin-top: 50px;
+    padding: 5px;
+}
+
+.btn-cntct:hover {
+    background-color: white;
+    color: blue;
+}
+
+.container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.body-main {
+    overflow-x: hidden;
+}
+
+.body {
+    padding: 0;
+    margin: 20px;
+}
+
+.body1, .body2 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.body1 {
+    color: blue;
+    font-size: 20px;
+}
+
+.body2 {
+    font-size: 30px;
+}
+
+.box1, .box2, .box3 {
+    height: 400px;
+    width: 100%;
+    max-width: 300px;
+    background-color: white;
+    box-shadow: 0px 0px 25px rgb(122, 102, 102);
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 1rem;
+    margin: 10px;
+}
+
+.img-wbdsgn {
+    width: 148px;
+    height: 60px;
+}
+
+.headline-desgn {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    height: 70px;
+}
+
+.text-dsgn {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    font-size: 16px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.lINK-READMORE {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.link-readmore {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkblue;
+    color: white;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    padding: 1rem 2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.link-readmore:hover {
+    background-color: green;
+}
+
+.view-All {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.view {
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 1rem 2rem;
+}
+
+.view:hover {
+    background-color: green;
+}
+
+.portfolio {
+    margin: 20px;
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(234, 236, 231);
+}
+
+.portfolio1-heading,
+.portfolio2-heading {
+    margin: 0;
+    padding: 10px;
+    font-size: 30px;
+    color: #1f1fec;
+}
+
+.slider {
+    position: relative;
+    max-width: 800px;
+    margin: 40px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 5px solid black;
+}
+
+.slides {
+    display: flex;
+    animation: slide-animation 10s infinite;
+    width: 100%;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.slide img {
+    width: 100%;
+    display: block;
+}
+
+@keyframes slide-animation {
+    0% {
+        transform: translateX(0);
+    }
+    33% {
+        transform: translateX(-100%);
+    }
+    66% {
+        transform: translateX(-200%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.touch {
+    background-image: linear-gradient(rgba(19, 47, 102, 0.33), rgba(19, 47, 102, 0.33)), url(https://squadifypro.com/wp-content/uploads/2021/07/scott-graham-5fNmWej4tAA-unsplash-1-1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: left;
+    background-position: center;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.touch-heading {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.touch-heading1 {
+    margin-top: 100px;
+    font-size: 2rem;
+}
+
+.touch-heading2 {
+    margin-top: 100px;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.touch-link-button {
+    text-decoration: none;
+    padding: 20px;
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    border-radius: 30px;
+}
+
+.touch-link-button:hover {
+    background-color: green;
+}
+
+.column {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.column-heading h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.column-heading1 {
+    font-family: sans-serif;
+    color: blue;
+}
+
+.column-heading2 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
+}
+
+.column-1,
+.column-2,
+.column-3 {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.column-1 img,
+.column-2 img,
+.column-3 img {
+    width: 80px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+.column-1 p,
+.column-2 p,
+.column-3 p {
+    margin-bottom: 10px;
+    height: auto;
+    padding: 10px;
+    color: black;
+}
+
+/* Media Queries */
+@media (max-width: 932px) {
+    .head {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .main-logo {
+        position: static;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .contactus {
+        position: static;
+        margin-top: 10px;
+    }
+
+    .wrap-headline {
+        margin-top: 0;
+    }
+
+    .imagination-heading {
+        margin-top: 50px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .btn-cntct {
+        font-size: 16px;
+        padding: 5px 10px;
+        margin-top: 20px;
+    }
+
+    .container-fluid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box1, .box2, .box3 {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .portfolio1-heading, .portfolio2-heading {
+        font-size: 25px;
+    }
+
+    .touch-heading1, .touch-heading2 {
+        margin-top: 50px;
+        font-size: 1.5rem;
+    }
+
+    .column {
+        margin-top: 20px;
+    }
+
+    .column-heading h1 {
+        font-size: 1.5rem;
+        margin: 20px;
+    }
+
+    .columns {
+        flex-direction: column;
+    }
+
+    .column-1, .column-2, .column-3 {
+        width: 90%;
+    }
+}
+
+@media (max-width: 600px) {
+    .header-section {
+        height: 60vh;
+    }
+
+    .contactus, .btn-cntct {
+        font-size: 14px;
+    }
+
+    .imagination-heading {
+        font-size: 18px;
+    }
+
+    .box1, .box2, .box3 {
+        max-width: 250px;
+    }
+
+    .portfolio1-heading, .portfolio2-heading {
+        font-size: 20px;
+    }
+
+    .touch-heading1, .touch-heading2 {
+        font-size: 1.25rem;
+    }
+
+    .column-heading h1 {
+        font-size: 1.25rem;
+    }
+}
